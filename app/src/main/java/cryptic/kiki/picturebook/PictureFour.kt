@@ -13,12 +13,12 @@ class PictureFour : AppCompatActivity() {
         setContentView(R.layout.activity_picture_four)
         btnPease1 = findViewById(R.id.btnPease1)
         btnPease1.setOnClickListener {
-            val intent = Intent(this,PictureFive::class.java)
+            val intent = Intent(this,PictureThree::class.java)
             startActivity(intent)
         }
         btnPease2 = findViewById(R.id.btnPease2)
         btnPease2.setOnClickListener {
-            val intent = Intent(this,PictureThree::class.java)
+            val intent = Intent(this,PictureFive::class.java)
             startActivity(intent)
         }
     }
