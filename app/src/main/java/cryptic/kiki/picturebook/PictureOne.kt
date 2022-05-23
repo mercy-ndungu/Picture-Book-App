@@ -18,7 +18,7 @@ class PictureOne : AppCompatActivity() {
         }
         btnEgg2 = findViewById(R.id.btnEgg2)
         btnEgg2.setOnClickListener {
-            val intent = Intent(this, PictureThree::class.java)
+            val intent: Intent = Intent(this,PictureThree::class.java)
             startActivity(intent)
         }
 

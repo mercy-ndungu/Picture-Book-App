@@ -16,7 +16,7 @@ class PictureThree : AppCompatActivity() {
             val intent = Intent(this, PictureOne::class.java)
             startActivity(intent)
         }
-        btnTuna1 = findViewById(R.id.btnTuna2)
+        btnTuna2 = findViewById(R.id.btnTuna2)
         btnTuna2.setOnClickListener {
             val intent = Intent(this,PictureFour::class.java)
             startActivity(intent)
